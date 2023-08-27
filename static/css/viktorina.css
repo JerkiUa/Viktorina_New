@@ -1,0 +1,264 @@
+.conteiner{
+    height: auto;
+    max-width: 800px;
+    background: rgb(122 122 129);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.part:nth-child(1) .question:nth-child(1) {
+    text-align: center;
+    color: aqua !important;
+}
+.question p{
+    font-family: 'Neucha';
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+    font-size: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.question label{
+    font-family: 'Neucha';
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+    font-size: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.text-shadow{
+    
+    text-shadow: 2px 3px 5px #FFFFFF,
+    2px 3px 5px #FFFFFF,
+    2px 3px 10px #FFFFFF,
+                 16px 6px 11px #FFFFFF;
+}
+.question-img{
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+}
+.part{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    height: auto;
+}
+
+.answer{
+    display: block ;
+    font-family: 'Neucha';
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    /* -webkit-text-stroke: 1px rgb(0, 0, 0); */
+    font-size: 16px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.answer label {
+    display: block;
+    display: block ;
+    font-family: 'Neucha';
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    /* -webkit-text-stroke: 1px rgb(0, 0, 0); */
+    font-size: 16px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.green{
+    color: rgb(3, 226, 3);
+    font-weight: 600;
+    
+    font-size: 14px;
+}
+.quiz_block {
+    display:none;
+}
+
+.quiz_block.active {
+    display: block;
+}
+
+.btn {
+    width: 150px;
+    height: 30px;
+    background: rgb(10, 241, 214);
+    color: cadetblue;
+    font-family: 'Neucha';
+    font-weight: 500;
+    font-style: normal;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.quiz_blockControl {
+    display: flex;
+    max-width: 320px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+.name-game {
+    text-shadow: 3px 2px 8px rgba(206,0,0,0.98);
+    font-family: 'TT Compotes Basilic';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    color: #000;
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+  /* -webkit-text-fill-color:transparent; */
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input[type="radio"]:checked + label[for="fiss2"] {
+    color: rgb(255, 0, 0) !important;
+    width: 100px;
+    background: #000;
+    border: 1px solid black;
+}
+#atelier{
+    display: none;
+}
+
+#hall {
+    display: none;
+}
+
+.red {
+    color: rgb(193, 11, 11);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.orange{
+    color: orange;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.fade-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(20, 153, 170);
+    width: auto;
+    height: auto;
+    opacity:1;
+	animation: ani 0.3s forwards;
+}
+
+  
+  @keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+.modal-window {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+}
+.game-over-P{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+
+}
+.loader{
+    color: chartreuse !important;
+    text-align: center;
+}
+
+.loader>a {
+    color: #2eb600;
+    text-decoration: none;
+}
+
+.loader>a:hover {
+    color: #2eb600;
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.scene {
+    display: none !important;
+}
+
+.activ-block{
+    display: block !important; 
+}
+
+/* .allQ {
+    display: none;
+} */
+
+.vibor-label{
+    color: rgb(52, 56, 250);
+}
+
+input{
+    display: none;
+}
+
+.catalog-cardsize{
+    display: flex !important;
+}
+
+
+a{
+    color: aqua !important;
+}
+
+.final{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.final p{
+    font-family: 'Courier New', Courier, monospace;
+    color: blanchedalmond;
+}
+
+.gameOverP{
+    font-family: 'Neucha';
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(110, 254, 91);
+    
+    font-size: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
